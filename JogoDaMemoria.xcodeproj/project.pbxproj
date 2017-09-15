@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5579AB1F68465300A585AE /* BarcodeDetectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5579AA1F68465300A585AE /* BarcodeDetectionScene.swift */; };
 		2BD4174D1F6503C8008FC254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD4174C1F6503C8008FC254 /* AppDelegate.swift */; };
 		2BD4174F1F6503C8008FC254 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2BD4174E1F6503C8008FC254 /* Scene.sks */; };
 		2BD417511F6503C8008FC254 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD417501F6503C8008FC254 /* Scene.swift */; };
@@ -16,6 +17,7 @@
 		2BD4175B1F6503C8008FC254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD417591F6503C8008FC254 /* LaunchScreen.storyboard */; };
 		2BD417661F6503C8008FC254 /* JogoDaMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD417651F6503C8008FC254 /* JogoDaMemoriaTests.swift */; };
 		2BD417711F6503C8008FC254 /* JogoDaMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD417701F6503C8008FC254 /* JogoDaMemoriaUITests.swift */; };
+		2BF9FB3E1F6B0470007DA389 /* BarcodeDetectionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2BF9FB3D1F6B0470007DA389 /* BarcodeDetectionScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B5579AA1F68465300A585AE /* BarcodeDetectionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeDetectionScene.swift; sourceTree = "<group>"; };
 		2BD417491F6503C8008FC254 /* JogoDaMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoDaMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD4174C1F6503C8008FC254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD4174E1F6503C8008FC254 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		2BD4176C1F6503C8008FC254 /* JogoDaMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD417701F6503C8008FC254 /* JogoDaMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaUITests.swift; sourceTree = "<group>"; };
 		2BD417721F6503C8008FC254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF9FB3D1F6B0470007DA389 /* BarcodeDetectionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BarcodeDetectionScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				2BD417571F6503C8008FC254 /* Assets.xcassets */,
 				2BD417591F6503C8008FC254 /* LaunchScreen.storyboard */,
 				2BD4175C1F6503C8008FC254 /* Info.plist */,
+				2B5579AA1F68465300A585AE /* BarcodeDetectionScene.swift */,
+				2BF9FB3D1F6B0470007DA389 /* BarcodeDetectionScene.sks */,
 			);
 			path = JogoDaMemoria;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			files = (
 				2BD4174F1F6503C8008FC254 /* Scene.sks in Resources */,
 				2BD4175B1F6503C8008FC254 /* LaunchScreen.storyboard in Resources */,
+				2BF9FB3E1F6B0470007DA389 /* BarcodeDetectionScene.sks in Resources */,
 				2BD417581F6503C8008FC254 /* Assets.xcassets in Resources */,
 				2BD417561F6503C8008FC254 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +276,7 @@
 				2BD417531F6503C8008FC254 /* ViewController.swift in Sources */,
 				2BD417511F6503C8008FC254 /* Scene.swift in Sources */,
 				2BD4174D1F6503C8008FC254 /* AppDelegate.swift in Sources */,
+				2B5579AB1F68465300A585AE /* BarcodeDetectionScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
 				INFOPLIST_FILE = JogoDaMemoria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ian.JogoDaMemoria;
@@ -449,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
 				INFOPLIST_FILE = JogoDaMemoria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ian.JogoDaMemoria;
