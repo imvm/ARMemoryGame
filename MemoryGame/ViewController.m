@@ -101,7 +101,7 @@
 - (nullable SCNNode *)renderer:(id <SCNSceneRenderer>)renderer nodeForAnchor:(ARAnchor *)anchor {
     NSLog(@"(nullable SCNNode *)renderer:(id <SCNSceneRenderer>)renderer nodeForAnchor:(ARAnchor *)anchor");
 
-    SCNNode *node = [SCNNode nodeWithGeometry:[SCNSphere sphereWithRadius:0.005F]];
+    SCNNode *node = [SCNNode nodeWithGeometry:[SCNSphere sphereWithRadius:0.01F]];
     node.transform = SCNMatrix4FromMat4(anchor.transform);
 
     return node;
