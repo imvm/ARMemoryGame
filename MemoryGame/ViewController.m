@@ -62,6 +62,9 @@
                         [self.recognizedBarcodes addObject:barcode];
 
                         CGRect barcodeBox = barcodeObservation.boundingBox;
+                        barcodeBox = CGRectApplyAffineTransform(barcodeBox, CGAffineTransformMakeScale(1.0F, -1.0F));
+                        barcodeBox = CGRectApplyAffineTransform(barcodeBox, CGAffineTransformMakeTranslation(0.0F, 1.0F));
+
                         CGPoint barcodeCenter = CGPointMake(CGRectGetMidX(barcodeBox), CGRectGetMidY(barcodeBox));
 
                         NSArray<ARHitTestResult *> *hitTestResults = [frame hitTest:barcodeCenter types:ARHitTestResultTypeFeaturePoint];
